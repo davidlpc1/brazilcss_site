@@ -8,7 +8,9 @@ export default function Docs() {
         <title>Docs | BrazilCSS</title>
       </Head>
       <Header active="docs" />
-      Documentação
+      <main>
+        Documentação
+      </main>
     </>
   );
 }

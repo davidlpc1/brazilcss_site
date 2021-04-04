@@ -31,7 +31,7 @@ const HeaderContainer = styled.header`
 
     a {
       margin: 0 1rem;
-      color: #eee;
+      color: #fff;
       user-select: none;
       cursor: pointer;
       position: relative;
@@ -41,7 +41,7 @@ const HeaderContainer = styled.header`
 
       &:hover {
         opacity: 0.9;
-        letter-spacing: 1.1px;
+        letter-spacing: 1.4px;
       }
 
       &::before {
@@ -62,13 +62,13 @@ const HeaderContainer = styled.header`
       }
 
       &:hover::before {
-        opacity: 1;
+        opacity: 0.8;
         transform: translateX(0rem);
       }
     }
 
     .active {
-      padding: 0.25rem;
+      padding: 0.45rem;
       border: 0.1rem ${({ theme }) => theme.colors.secondary} solid;
     }
   }
